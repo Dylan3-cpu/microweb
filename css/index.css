@@ -1,43 +1,69 @@
-.Padre{
-    background-color: gray;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    place-items: center;
-    height: 100vh;
-}
-.hijo{
-  background-color: rgb(196, 240, 237);
-  border-radius: 1rem;
-  width: 24rem;
-  height: 30rem;
+.Padre {
+  background-color: rgb(237, 237, 237);
   display: grid;
   place-items: center;
+  height: 100vh;
+  padding: 1rem; /* 🟡 importante para no pegarse al borde en móviles */
+}
+
+
+.hijo {
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: rgb(50, 45, 147);
+}
+.subtitulo {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: rgb(137, 11, 11);
+}
+
+/* 🔽 Opcional: media query si quieres cambiar algo en pantallas grandes */
+@media (min-width: 768px) {
+  .hijo {
+    padding: 3rem;
+  }
 }
 .estilo-letra{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60%;
+    font-size: 0.9rem;
     color: rgb(0, 0, 0);
-    text-align: center;
+    margin-bottom: 1.5rem;
 }
-.btn-inicio-sesion{
-    margin: 3rem;
-    height: 8vh;
-    width: 17vh;
-    border-radius: 1rem;
-    border-style: hidden;
-    background-color: rgb(65, 99, 181);
-    cursor: pointer;
-    border-color: black;
+.btn-inicio-sesion {
+  height: 3rem;
+  width: 70%;
+  border-radius: 0rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: #5fa7f3; /* Azul claro */
+  transition: background-color 0.3s ease;
 }
-.btn-registro{
-    margin: 3rem;
-    height: 8vh;
-    width: 17vh;
-    border-radius: 1rem;
-    border-style: hidden;
-    background-color: rgb(65, 99, 181);
-    cursor: pointer;
-    border-color: black;
+.btn-inicio-sesion:hover {
+  background-color: #2f75cb; /* Azul oscuro */
+}
+.btn-registro {
+  height: 3rem;
+  width: 70%;
+  border-radius: 0rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #86e777; /* Verde claro */
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+.btn-registro:hover {
+  background-color: #3da038; /* Verde oscuro */
 }

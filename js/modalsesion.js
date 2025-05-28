@@ -8,12 +8,12 @@ const cerrar = document.getElementById("close")//para cerrar el segundo modal
 abrir.addEventListener("click",()=>{
     modalin.style.display= "block";  //lo que permite que al darle click al boton muestre el modal 
 });
-cerrar.addEventListener("click", ()=>{
+closed.addEventListener("click", ()=>{
     modalin.style.display= "none"; //y con esto lo cerramos oka oka?
 });
 abrir2.addEventListener("click", ()=>{
     modalreg.style.display= "block";
 });
-closed.addEventListener("click",()=>{
+cerrar.addEventListener("click",()=>{
     modalreg.style.display= "none";
 });

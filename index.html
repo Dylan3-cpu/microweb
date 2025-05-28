@@ -3,19 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ACA ABAJO SOLO LOS ESTILOS-->
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/modales.css">
+    <!--Y ACA LOS SCRIPTS-->
+    
     <title>Micro-Web</title>
 </head>
 <body>
 <main>
     <div class="Padre">
         <div class="hijo">
+            <h1 class="titulo">SNAPLY</h1>
+            <hr>
+            <p class="estilo-letra"></p>
+            <p class="estilo-letra">Accede a tu cuenta<br>o crea una si eres nuevo</p>
             <button class="btn-inicio-sesion" id="111">Iniciar Sesion</button>
-                        <p class="estilo-letra"> Haz click para iniciar sesion</p>
+            <p class="estilo-letra"></p>
             <button class="btn-registro" id="222">Registrarse</button>
-                        <p class="estilo-letra"> Haz click para registrarte</p>
+
         </div>
+
+
+        <!--SECCION DE MODALES-->
+        <section>
+            <div class="modal-iniciar" id="IN">
+                <div class="prueba"> 
+                    <div class="modal-header">
+                        <button class="cerradiño" id="cerrar">
+                            VOLVER
+                        </button>  
+                    </div>
+                    <div class="modal-content">
+                        <input type="text" class="modal-input" placeholder="Usuario">
+                        <input type="password" class="modal-input" placeholder="Contraseña">
+                        <input type="email" class="modal-input" placeholder="Correo">
+                    </div>
+                    <div class="modal-footer">
+                        <div class="blue-bar"></div>
+                        <button class="action-btn">LOG IN</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--esta es la division de cada modal-->
+        <section>
+            <div class="modal-iniciar" id="REG">
+                <div class="prueba"> 
+                    <div class="modal-header">
+                        <button class="cerradiño" id="close">
+                            VOLVER
+                        </button>  
+                    </div>
+                    <div class="modal-content">
+                        <input type="text" class="modal-input" placeholder="Usuario">
+                        <input type="password" class="modal-input" placeholder="Contraseña">
+                        <input type="email" class="modal-input" placeholder="Correo">
+                    </div>
+                    <div class="modal-footer">
+                        <div class="blue-bar"></div>
+                        <button class="action-btn">Register Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SECCION DE MODALES-->
     </div>
 </main>
+
+<script src="/js/modalsesion.js"></script>
 </body>
 </html>
