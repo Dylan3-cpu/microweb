@@ -17,3 +17,4 @@ abrir2.addEventListener("click", ()=>{
 cerrar.addEventListener("click",()=>{
     modalreg.style.display= "none";
 });
+//hecho por Darwin Arenas
