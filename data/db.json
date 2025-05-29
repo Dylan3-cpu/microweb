@@ -1,5 +1,16 @@
 {
-    "usuarios": [
-        
-    ]
+  "usuarios": [
+    {
+      "id": "fb8e",
+      "user": "DAR",
+      "email": "felipearenascarvajal123@gmail.com",
+      "password": "987654321"
+    },
+    {
+      "id": "221d",
+      "user": "DAR",
+      "email": "felipearenascarvajal123@gmail.com",
+      "password": "987654321"
+    }
+  ]
 }

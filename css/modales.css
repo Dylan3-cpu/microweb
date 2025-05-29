@@ -57,7 +57,7 @@
 
 .blue-bar {
   height: 5px;
-  background-color: #00aaff;
+  background-color: #000000;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -70,8 +70,8 @@
   top: -15px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #eaff00;
-  border: 2px solid #cce200;
+  background-color: #a9b065;
+  border: 2px solid #d1d6a0;
   padding: 6px 20px;
   border-radius: 4px;
   cursor: pointer;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/modales.css">
+    
     <!--Y ACA LOS SCRIPTS-->
     
     <title>Micro-Web</title>
@@ -36,13 +37,13 @@
                         </button>  
                     </div>
                     <div class="modal-content">
-                        <input type="text" class="modal-input" placeholder="Usuario">
-                        <input type="password" class="modal-input" placeholder="Contraseña">
-                        <input type="email" class="modal-input" placeholder="Correo">
+                        <input type="text" class="modal-input" placeholder="Usuario" id="1">
+                        <input type="password" class="modal-input" placeholder="Contraseña" id="2">
+                        <input type="email" class="modal-input" placeholder="Correo" id="3">
                     </div>
                     <div class="modal-footer">
                         <div class="blue-bar"></div>
-                        <button class="action-btn">LOG IN</button>
+                        <button class="action-btn" id="send" >LOG IN</button>
                     </div>
                 </div>
             </div>
@@ -57,21 +58,23 @@
                         </button>  
                     </div>
                     <div class="modal-content">
-                        <input type="text" class="modal-input" placeholder="Usuario">
-                        <input type="password" class="modal-input" placeholder="Contraseña">
-                        <input type="email" class="modal-input" placeholder="Correo">
+                        <input type="text" class="modal-input" placeholder="Usuario" id="user">
+                        <input type="password" class="modal-input" placeholder="Contraseña" id="password">
+                        <input type="email" class="modal-input" placeholder="Correo" id="mail">
                     </div>
                     <div class="modal-footer">
                         <div class="blue-bar"></div>
-                        <button class="action-btn">Register Now</button>
+                        <button class="action-btn" id="SEND">Register Now</button>
                     </div>
                 </div>
             </div>
         </section>
         <!--SECCION DE MODALES-->
     </div>
+    <a href="/html/perfil.html"><button>ir a perfil</button></a>
 </main>
 
 <script src="/js/modalsesion.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 document.getElementById("SEND").addEventListener("click", registrarUsuario);
 
 function registrarUsuario() {
-  const user = document.getElementById("1").value.trim();
-  const email = document.getElementById("2").value.trim();
-  const password = document.getElementById("3").value.trim();
+  const user = document.getElementById("user").value.trim();
+  const email = document.getElementById("mail").value.trim();
+  const password = document.getElementById("password").value.trim();
 
   if (!user || !email || !password) {
     alert("Por favor completa todos los campos.");
@@ -31,9 +31,9 @@ function crearUsuario(user, email, password) {
     console.log("✅ Usuario creado:", data);
     alert("Usuario creado correctamente.");
     // Limpiar inputs si quieres
-    document.getElementById("user").value = "";
-    document.getElementById("mail").value = "";
-    document.getElementById("password").value = "";
+    document.getElementById("1").value = "";
+    document.getElementById("2").value = "";
+    document.getElementById("3").value = "";
   })
   .catch(error => {
     console.error("❌ Error al crear usuario:", error);
