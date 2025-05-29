@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Perfil</title>
+  <link rel="stylesheet" href="../css/pefil.css" />
+</head>
+<body>
+  <main class="contenido">
+    <section class="perfil">
+      <label for="fotoPerfilInput" class="foto-perfil centrada" id="fotoPerfil" title="Haz clic para cambiar tu foto"></label>
+      <input type="file" id="fotoPerfilInput" accept="image/*" />
+
+      <div class="info filas">
+        <div class="columna">
+          <input id="nombre" placeholder="Nombre completo" />
+          <input id="edad" placeholder="Edad" />
+          <input id="genero" placeholder="Género" />
+        </div>
+        <div class="columna">
+          <input id="fechaNacimiento" placeholder="Fecha de nacimiento" />
+          <input id="lugarNacimiento" placeholder="Lugar de nacimiento" />
+          <div class="estudios-container">
+            <input id="estudios" placeholder="Estudios" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="publicacion">
+      <h2>AÑADE UNA PUBLICACIÓN</h2>
+      <textarea id="contenidoPost" placeholder="¿Qué estás pensando?"></textarea>
+      <input type="file" id="imagenArchivo" accept="image/*" />
+    </section>
+
+    <section id="muro"></section>
+  </main>
+</body>
+</html>
