@@ -2,15 +2,21 @@
   "usuarios": [
     {
       "id": "fb8e",
-      "user": "DARWIN",
-      "email": "felipearenascarvajal1234@gmail.com",
-      "password": "9876543210"
+      "user": "DAR",
+      "email": "felipearenascarvajal123@gmail.com",
+      "password": "987654321"
     },
     {
       "id": "221d",
       "user": "DAR",
       "email": "felipearenascarvajal123@gmail.com",
       "password": "987654321"
+    },
+    {
+      "id": "48da",
+      "user": "DARW",
+      "email": "felipe@gmail.com",
+      "password": "12345"
     }
   ]
 }
